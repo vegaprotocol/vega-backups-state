@@ -1,0 +1,119 @@
+{
+    "LastUpdated": "2023-04-25T16:47:09.631916252Z",
+    "Backups": {
+        "42139547-6142-4716-bbc3-8dd238f11e75": {
+            "ID": "QhOVR2FCRxa7w43SOPEedQ==",
+            "Started": "2023-04-20T21:55:23.118704309Z",
+            "Finished": "2023-04-20T21:56:23.649859222Z",
+            "ServerHost": "be02.validators-testnet.vega.xyz",
+            "Status": "success",
+            "Postgresql": {
+                "Status": "success",
+                "Type": "incr",
+                "Label": "20230420-214718F_20230420-215526I",
+                "Started": "2023-04-20T21:55:25.260086855Z",
+                "Finished": "2023-04-20T21:55:52.857410829Z"
+            },
+            "VegaChain": {
+                "Location": {
+                    "Bucket": "vega-internal-tm-postgres-backups",
+                    "Path": "vega_chain_snapshots/be02.validators-testnet.vega.xyz-2023-04-20_23-40/42139547-6142-4716-bbc3-8dd238f11e75"
+                },
+                "Started": "2023-04-20T21:55:25.260083978Z",
+                "Finished": "2023-04-20T21:55:33.91566343Z",
+                "Status": "success",
+                "Components": {
+                    "VegaHome": true,
+                    "TendermintHome": true,
+                    "VisorHome": true
+                }
+            }
+        },
+        "f78b7892-b6ce-4ce5-ace2-5f107e2e6fce": {
+            "ID": "94t4krbOTOWs4l8Qfi5vzg==",
+            "Started": "2023-04-20T21:47:16.22705109Z",
+            "Finished": "2023-04-20T21:48:23.862584682Z",
+            "ServerHost": "be02.validators-testnet.vega.xyz",
+            "Status": "success",
+            "Postgresql": {
+                "Status": "success",
+                "Type": "full",
+                "Label": "20230420-214718F",
+                "Started": "2023-04-20T21:47:18.190730695Z",
+                "Finished": "2023-04-20T21:47:53.003485751Z"
+            },
+            "VegaChain": {
+                "Location": {
+                    "Bucket": "vega-internal-tm-postgres-backups",
+                    "Path": "vega_chain_snapshots/be02.validators-testnet.vega.xyz-2023-04-20_23-40/f78b7892-b6ce-4ce5-ace2-5f107e2e6fce"
+                },
+                "Started": "2023-04-20T21:47:18.190757621Z",
+                "Finished": "2023-04-20T21:47:28.420790992Z",
+                "Status": "success",
+                "Components": {
+                    "VegaHome": true,
+                    "TendermintHome": true,
+                    "VisorHome": true
+                }
+            }
+        },
+        "c6ff950c-4d41-4c8a-ad2c-ac775b7c91a8": {
+            "ID": "xv+VDE1BTIqtLKx3W3yRqA==",
+            "Started": "2023-04-25T16:31:41.502155102Z",
+            "Finished": "2023-04-25T16:31:59.100665711Z",
+            "ServerHost": "be02.validators-testnet.vega.xyz",
+            "Status": "failed",
+            "Postgresql": {
+                "Status": "failed",
+                "Type": "",
+                "Label": "",
+                "Started": "0001-01-01T00:00:00Z",
+                "Finished": "0001-01-01T00:00:00Z"
+            },
+            "VegaChain": {
+                "Location": {
+                    "Bucket": "",
+                    "Path": ""
+                },
+                "Started": "0001-01-01T00:00:00Z",
+                "Finished": "0001-01-01T00:00:00Z",
+                "Status": "unknown",
+                "Components": {
+                    "VegaHome": false,
+                    "TendermintHome": false,
+                    "VisorHome": false
+                }
+            }
+        },
+        "06b2cab2-2dec-4fcf-8115-9fe119d45d85": {
+            "ID": "BrLKsi3sT8+BFZ/hGdRdhQ==",
+            "Started": "2023-04-25T16:43:09.873697846Z",
+            "Finished": "2023-04-25T16:47:09.63124091Z",
+            "ServerHost": "be02.validators-testnet.vega.xyz",
+            "Status": "success",
+            "Postgresql": {
+                "Status": "success",
+                "Type": "incr",
+                "Label": "20230420-214718F_20230425-164313I",
+                "Started": "2023-04-25T16:43:12.725193186Z",
+                "Finished": "2023-04-25T16:43:36.45128694Z"
+            },
+            "VegaChain": {
+                "Location": {
+                    "Bucket": "vega-internal-tm-postgres-backups",
+                    "Path": "vega_chain_snapshots/be02.validators-testnet.vega.xyz-2023-04-20_23-40/06b2cab2-2dec-4fcf-8115-9fe119d45d85"
+                },
+                "Started": "2023-04-25T16:43:12.725269436Z",
+                "Finished": "2023-04-25T16:46:39.59007228Z",
+                "Status": "success",
+                "Components": {
+                    "VegaHome": true,
+                    "TendermintHome": true,
+                    "VisorHome": true
+                }
+            }
+        }
+    },
+    "PgBackrestConfig": "+Q5xANAJdD7A8U2fbaeCSQXe/Xiv2eTudtFo62XGMymRrL4yhEFhdFdGE8dkuYAxtnr5+uZDoSPgH/DT64d0d9xGhqhLeqzBzqrk0XXK+zyyaexO5tYpCoyl7CALxqDwD5jrWSmqPyPw7k8/AegxAPU7mRGGI+HDawSGOXqgTQcjgzsnl/MG1yQvTCWqmk397Dn8cjxfDGNILXJYYT6LwNXlH0SA2qJ7h0M5mI7dR3GL44j8UJre7GpHNEFru8NC3ATgycnKGvTPZUGhWgYPU+GtD51TpACdNuPx8Ncr2Fjjd6sp0nfiw3G4pHny++M2wIJ4R1t9gI89xGzBG4bZiD0RtOBPk2oMMk0C0RRMSQ4inZc9uZ0eSCJwYlCL2hG16Ah/WX0+G7fbsPNACmKMAz+zg88mgsY7PukmkeG22opoej9xixOBGnlPMj6qu+Bx+VZVwOO85GMb8JzZ+LYGMyVhGVzdFDUXZpjF8UtOH2EVof8HYJb+L3fR4Pz55gNA5xB5gQBi6engIgMMfmZarx9GSF1+wLxba/DtMVpYUVy9w/5o47JNQjOKX4g6eOGz6tJzYakOZcgz5IDSBMb52OznDbF7wMhK0Wmb6pzzv2j0VnK8MdV5ikPAhnUXDXecyIEiDrxkNaAwqINLsR69BfvWcyAMa/qGnKKXjt3G4djHYW+E0EiNy+Rb",
+    "Locked": false
+}
