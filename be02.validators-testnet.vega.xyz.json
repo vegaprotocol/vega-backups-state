@@ -1,5 +1,5 @@
 {
-    "LastUpdated": "2023-04-27T08:13:26.28902243Z",
+    "LastUpdated": "2023-04-27T10:37:18.85372882Z",
     "Backups": {
         "f78b7892-b6ce-4ce5-ace2-5f107e2e6fce": {
             "ID": "94t4krbOTOWs4l8Qfi5vzg==",
@@ -56,8 +56,36 @@
                     "VisorHome": true
                 }
             }
+        },
+        "05c3da54-3c66-4fb3-a839-41a7acddab69": {
+            "ID": "BcPaVDxmT7OoOUGnrN2raQ==",
+            "Started": "2023-04-27T10:33:44.258744014Z",
+            "Finished": "2023-04-27T10:37:18.853371362Z",
+            "ServerHost": "be02.validators-testnet.vega.xyz",
+            "Status": "success",
+            "Postgresql": {
+                "Status": "success",
+                "Type": "incr",
+                "Label": "20230420-214718F_20230427-103347I",
+                "Started": "2023-04-27T10:33:46.396477222Z",
+                "Finished": "2023-04-27T10:34:52.199531345Z"
+            },
+            "VegaChain": {
+                "Location": {
+                    "Bucket": "vega-internal-tm-postgres-backups",
+                    "Path": "vega_chain_snapshots/be02.validators-testnet.vega.xyz-2023-04-20_23-40/05c3da54-3c66-4fb3-a839-41a7acddab69"
+                },
+                "Started": "2023-04-27T10:33:46.396516203Z",
+                "Finished": "2023-04-27T10:36:48.803268048Z",
+                "Status": "success",
+                "Components": {
+                    "VegaHome": true,
+                    "TendermintHome": true,
+                    "VisorHome": true
+                }
+            }
         }
     },
-    "PgBackrestConfig": "5/y1EeE4KPTGhvVPnx+1fYVQtL1FUgbJgfkoAZVdCyuUwkYmax8utkbtV5M+HMJO7v+bnI5dsd6ptHpcVNfCuKpZHlXYsPO2BWzEeEa7545NtZKrsAf0DnJpTsmJEmUxg3tRn4iHOvJDaaDar0RWcZk9jrIBcyc9y2qtFIeaKny6bB1AqTK7EvMQuRAzpdikvAmNrj3Sv36WCYMRGwtgnoWbPejfCa3bEpORVl7c/vM38Jpg93VcPd42k6tM6IZgvEexGJH7IxgehRbAPYcDi+ZfCdV4TDbXWp3V5C3wBWHyWWei9mtYeFfyp+AY0clXybd/NWcAucMcXcUk8yHJfX8dE2ByAYgrAiQey9dX9ki6gCLFs4iYJIwbZlNh5vqf6Gy7ynXw9Z9ORQyoyhbG+uwa86YcKAlZVp5ORZPAdBEMiyOL+mnkcYqNI0IONrM+8mlt7MgdoPCy1MjItNQGH/56rbubk/7Ws26KrQOG1Q5/Z1EL0FXDeYWKQ84Q2iWyI9N1iSSYg8lk5f1hsd95Odk0FOnR8snZzxLW4fEvRTFM9YJem9HmiI70wNCXAGqJioZCHDIXJVjMutz0A5pcFbj8m09xFlHzIgbeXDk8i2CIV88EmDnbPJ3Q83P80ks1Uv2JsUzb8WXQAqlcEWPJ6jVbtUA0503WSItCBu3rna/L2QsM5e8YSLkr",
+    "PgBackrestConfig": "DDtAAOLQfq31i8ZrfJaWnM7hcZWNGjYXLVT3dXzsP6CZ1+IlXHc+DR6nN2ZZOGSXCgI5pvus2gUXcQ7GYHOzkAIi/dJ7NEFG9ypTbzw9PK+tqUy6TE5ONy6VOSFZO78kCg/X3qBwvUnBr7PWk3iLJ83Rj1uTJ+6dgmnvQLBoiEWwCr5kJMB5+06/w0A8YoDosEjppEacLXq5mJP16SUBV5w3eGyFlbWzzdfppDzaOTZAL3nd0sitenWaiK5d795gQIlRl72WAM0wbhaKxUYmaFAynT0tXboOH0X/oirZb8slC1HiIWrreoucGabwi5E4wzyT6uIFXjniFgjgMnsvcqhsJnSbvK6V5BiXCihMl8uiNMm6wA9D4VYrkW1WXMKcesMwqMwdjL0LdXpevpK8yfAK9G5RMEbo2m3o08SfafQ0y7cno0ZzCVlzxaA3MwD2yzyRo5FZxmiAAdiIzCQgShohXd8kDUBCYBdz6oKTT9WRJT5wAmxOiYhC8VPFMjoIeriQBuzNn5IocE444hlUiOUbmk/EBsp9s6Hi5GUA7sREF3O7VXBKuY6WEWuS4AA4npxW7q7ZjJL0G8GuoANhkpq4CgFkR/Eb03n/kKqY5WVcG6SghfJTegkA1sJ1WUcWcS9VuxP3NMoh9SzWYqm15beDRaunM7/K7AlWYjGTvL9XbNyLq3N1E8qi",
     "Locked": false
 }
