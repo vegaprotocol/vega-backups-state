@@ -1,6 +1,62 @@
 {
-    "LastUpdated": "2023-04-27T10:37:18.85372882Z",
+    "LastUpdated": "2023-04-27T10:42:28.106499667Z",
     "Backups": {
+        "05c3da54-3c66-4fb3-a839-41a7acddab69": {
+            "ID": "BcPaVDxmT7OoOUGnrN2raQ==",
+            "Started": "2023-04-27T10:33:44.258744014Z",
+            "Finished": "2023-04-27T10:37:18.853371362Z",
+            "ServerHost": "be02.validators-testnet.vega.xyz",
+            "Status": "success",
+            "Postgresql": {
+                "Status": "success",
+                "Type": "incr",
+                "Label": "20230420-214718F_20230427-103347I",
+                "Started": "2023-04-27T10:33:46.396477222Z",
+                "Finished": "2023-04-27T10:34:52.199531345Z"
+            },
+            "VegaChain": {
+                "Location": {
+                    "Bucket": "vega-internal-tm-postgres-backups",
+                    "Path": "vega_chain_snapshots/be02.validators-testnet.vega.xyz-2023-04-20_23-40/05c3da54-3c66-4fb3-a839-41a7acddab69"
+                },
+                "Started": "2023-04-27T10:33:46.396516203Z",
+                "Finished": "2023-04-27T10:36:48.803268048Z",
+                "Status": "success",
+                "Components": {
+                    "VegaHome": true,
+                    "TendermintHome": true,
+                    "VisorHome": true
+                }
+            }
+        },
+        "63d388ca-a1e3-4fca-a772-b8ef110a938d": {
+            "ID": "Y9OIyqHjT8qncrjvEQqTjQ==",
+            "Started": "2023-04-27T10:39:00.409396393Z",
+            "Finished": "2023-04-27T10:42:28.106083834Z",
+            "ServerHost": "be02.validators-testnet.vega.xyz",
+            "Status": "success",
+            "Postgresql": {
+                "Status": "success",
+                "Type": "incr",
+                "Label": "20230420-214718F_20230427-103903I",
+                "Started": "2023-04-27T10:39:02.500300276Z",
+                "Finished": "2023-04-27T10:39:53.459584839Z"
+            },
+            "VegaChain": {
+                "Location": {
+                    "Bucket": "vega-internal-tm-postgres-backups",
+                    "Path": "vega_chain_snapshots/be02.validators-testnet.vega.xyz-2023-04-20_23-40/63d388ca-a1e3-4fca-a772-b8ef110a938d"
+                },
+                "Started": "2023-04-27T10:39:02.500340201Z",
+                "Finished": "2023-04-27T10:41:58.06515955Z",
+                "Status": "success",
+                "Components": {
+                    "VegaHome": true,
+                    "TendermintHome": true,
+                    "VisorHome": true
+                }
+            }
+        },
         "f78b7892-b6ce-4ce5-ace2-5f107e2e6fce": {
             "ID": "94t4krbOTOWs4l8Qfi5vzg==",
             "Started": "2023-04-20T21:47:16.22705109Z",
@@ -56,36 +112,8 @@
                     "VisorHome": true
                 }
             }
-        },
-        "05c3da54-3c66-4fb3-a839-41a7acddab69": {
-            "ID": "BcPaVDxmT7OoOUGnrN2raQ==",
-            "Started": "2023-04-27T10:33:44.258744014Z",
-            "Finished": "2023-04-27T10:37:18.853371362Z",
-            "ServerHost": "be02.validators-testnet.vega.xyz",
-            "Status": "success",
-            "Postgresql": {
-                "Status": "success",
-                "Type": "incr",
-                "Label": "20230420-214718F_20230427-103347I",
-                "Started": "2023-04-27T10:33:46.396477222Z",
-                "Finished": "2023-04-27T10:34:52.199531345Z"
-            },
-            "VegaChain": {
-                "Location": {
-                    "Bucket": "vega-internal-tm-postgres-backups",
-                    "Path": "vega_chain_snapshots/be02.validators-testnet.vega.xyz-2023-04-20_23-40/05c3da54-3c66-4fb3-a839-41a7acddab69"
-                },
-                "Started": "2023-04-27T10:33:46.396516203Z",
-                "Finished": "2023-04-27T10:36:48.803268048Z",
-                "Status": "success",
-                "Components": {
-                    "VegaHome": true,
-                    "TendermintHome": true,
-                    "VisorHome": true
-                }
-            }
         }
     },
-    "PgBackrestConfig": "DDtAAOLQfq31i8ZrfJaWnM7hcZWNGjYXLVT3dXzsP6CZ1+IlXHc+DR6nN2ZZOGSXCgI5pvus2gUXcQ7GYHOzkAIi/dJ7NEFG9ypTbzw9PK+tqUy6TE5ONy6VOSFZO78kCg/X3qBwvUnBr7PWk3iLJ83Rj1uTJ+6dgmnvQLBoiEWwCr5kJMB5+06/w0A8YoDosEjppEacLXq5mJP16SUBV5w3eGyFlbWzzdfppDzaOTZAL3nd0sitenWaiK5d795gQIlRl72WAM0wbhaKxUYmaFAynT0tXboOH0X/oirZb8slC1HiIWrreoucGabwi5E4wzyT6uIFXjniFgjgMnsvcqhsJnSbvK6V5BiXCihMl8uiNMm6wA9D4VYrkW1WXMKcesMwqMwdjL0LdXpevpK8yfAK9G5RMEbo2m3o08SfafQ0y7cno0ZzCVlzxaA3MwD2yzyRo5FZxmiAAdiIzCQgShohXd8kDUBCYBdz6oKTT9WRJT5wAmxOiYhC8VPFMjoIeriQBuzNn5IocE444hlUiOUbmk/EBsp9s6Hi5GUA7sREF3O7VXBKuY6WEWuS4AA4npxW7q7ZjJL0G8GuoANhkpq4CgFkR/Eb03n/kKqY5WVcG6SghfJTegkA1sJ1WUcWcS9VuxP3NMoh9SzWYqm15beDRaunM7/K7AlWYjGTvL9XbNyLq3N1E8qi",
+    "PgBackrestConfig": "MBwhE0Lzg2BS7yvc5MWGVyVfsM8zfP24nqwuYwRxfAwXbDXay8SfGr8vfs3ScwGO5rnEmYcPD+Q14QVq2/8o1DFfDnOX3+KOrAvmmmVeEyjdrj9XVXcQVb3XL6ikK7Zs4p6NyqIE6dGp+OFu6zTvxnhwUMVjjUqELRXP78g0Kt3boft31/UCyVum+jBqrdkGvRXP8HKdPrvfW29v/25R0c0LBqlbZgNKa4Fq30jb5xnauKQ0FuQHsvq9CwmTj/mxUcI7l51VxJXqj4U7R7H01Fv7foMKuJTSn6HlyMB8uWm1oEmSDpqniNL26ms9AC0ZkxcDenNzEVH6HayRtyU6frIGLK3xFiOOPnG07KfZx2nrhyRJeAX2yzRkS7+lv+s2+GbSu5IaOVl4Fbp50Eyj1nUeIw0RSCVs8/3TgXGAJy/zRHgZ0B6MYCAloJk0M+88OYv4rcNudWLYNqAboxVL1XSlC+yeBp3a5ljtlznqqn/9awmeXoUnuI/mr1CWM3XTtFk63QJyXvinqeblXazZbq656YFLcgI2GhA/YEF37ti2mTeXz9lUUvIMV0D24+lOfBAMY0naxoYQpQ8Uxy7E9tjhgbm86g9X2C00LODC077LMVtfHVSQL5Q5I77LQ6I8J7VHBJt+hQcj8ghcDTscvnVv0l05cea8kVRh1fDvyr/Y3W3qezCG7LwY",
     "Locked": false
 }
