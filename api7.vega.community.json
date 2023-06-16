@@ -4,7 +4,7 @@
             "Endpoint": "fra1.digitaloceanspaces.com",
             "Region": "fra1",
             "Bucket": "vega-automated-mainnet-backups",
-            "Path": "api7.vega.community/",
+            "Path": "api7.vega.community",
             "AccessKeyIdEnvName": "AWS_ACCESS_KEY_ID",
             "AccessKeySecretEnvName": "AWS_SECRET_ACCESS_KEY"
         },
@@ -20,11 +20,11 @@
     },
     "Backups": [
         {
-            "ID": "20230616_125537-3488447",
-            "Date": "2023-06-16T13:15:24Z",
-            "Block": "3488447",
+            "ID": "20230616_153445-3500601",
+            "Date": "2023-06-16T15:54:43Z",
+            "Block": "3500601",
             "Origin": "api7.vega.community",
-            "Location": "s3://vega-automated-mainnet-backups/api7.vega.community",
+            "Location": "s3://vega-automated-mainnet-backups/api7.vega.community/",
             "Full": true,
             "Pools": [
                 {
