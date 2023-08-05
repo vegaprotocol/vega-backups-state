@@ -3408,6 +3408,36 @@
                     "MountPoint": "/home/vega/tendermint_home"
                 }
             ]
+        },
+        {
+            "ID": "20230805_005507-9441105",
+            "Date": "2023-08-05T02:11:36Z",
+            "Block": "9441105",
+            "Origin": "api7.vega.community",
+            "Location": "s3://vega-automated-mainnet-backups/api7.vega.community/",
+            "Full": true,
+            "Pools": [
+                {
+                    "Name": "vega_pool",
+                    "MountPoint": "/vega_pool"
+                },
+                {
+                    "Name": "vega_pool/home",
+                    "MountPoint": "/home/vega"
+                },
+                {
+                    "Name": "vega_pool/home/network-history",
+                    "MountPoint": "/home/vega/network-history"
+                },
+                {
+                    "Name": "vega_pool/home/postgresql",
+                    "MountPoint": "/home/vega/postgresql"
+                },
+                {
+                    "Name": "vega_pool/home/tendermint_home",
+                    "MountPoint": "/home/vega/tendermint_home"
+                }
+            ]
         }
     ]
 }
