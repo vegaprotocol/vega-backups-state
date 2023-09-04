@@ -1,0 +1,53 @@
+{
+    "Config": {
+        "Destination": {
+            "Endpoint": "fra1.digitaloceanspaces.com",
+            "Region": "fra1",
+            "Bucket": "vega-automated-mainnet-backups",
+            "Path": "m0.vega.community",
+            "AccessKeyIdEnvName": "AWS_ACCESS_KEY_ID",
+            "AccessKeySecretEnvName": "AWS_SECRET_ACCESS_KEY"
+        },
+        "FullBackup": {
+            "WhenEmptyState": true,
+            "EveryNBackups": 7,
+            "EveryTimeDuration": 259200000000000
+        },
+        "CoreRestURL": "localhost:3003",
+        "PoolName": "vega_pool",
+        "StateFilePath": "/etc/backup-state.json",
+        "ZfsBackupBinaryPath": "/usr/local/bin/zfsbackup-go"
+    },
+    "Backups": [
+        {
+            "ID": "20230904_071221-13505193",
+            "Date": "2023-09-04T09:10:17Z",
+            "Block": "13505193",
+            "Origin": "m0.vega.community",
+            "Location": "s3://vega-automated-mainnet-backups/m0.vega.community/",
+            "Full": true,
+            "Pools": [
+                {
+                    "Name": "vega_pool",
+                    "MountPoint": "/vega_pool"
+                },
+                {
+                    "Name": "vega_pool/home",
+                    "MountPoint": "/home/vega"
+                },
+                {
+                    "Name": "vega_pool/home/network-history",
+                    "MountPoint": "/home/vega/network-history"
+                },
+                {
+                    "Name": "vega_pool/home/postgresql",
+                    "MountPoint": "/home/vega/postgresql"
+                },
+                {
+                    "Name": "vega_pool/home/tendermint_home",
+                    "MountPoint": "/home/vega/tendermint_home"
+                }
+            ]
+        }
+    ]
+}
