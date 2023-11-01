@@ -8868,6 +8868,66 @@
                     "MountPoint": "/home/vega/tendermint_home"
                 }
             ]
+        },
+        {
+            "ID": "20231031_185715-21141441",
+            "Date": "2023-10-31T22:29:56Z",
+            "Block": "21141441",
+            "Origin": "api0.vega.community",
+            "Location": "s3://vega-automated-mainnet-backups/api0.vega.community/",
+            "Full": true,
+            "Pools": [
+                {
+                    "Name": "vega_pool",
+                    "MountPoint": "/vega_pool"
+                },
+                {
+                    "Name": "vega_pool/home",
+                    "MountPoint": "/home/vega"
+                },
+                {
+                    "Name": "vega_pool/home/network-history",
+                    "MountPoint": "/home/vega/network-history"
+                },
+                {
+                    "Name": "vega_pool/home/postgresql",
+                    "MountPoint": "/home/vega/postgresql"
+                },
+                {
+                    "Name": "vega_pool/home/tendermint_home",
+                    "MountPoint": "/home/vega/tendermint_home"
+                }
+            ]
+        },
+        {
+            "ID": "20231101_005721-21174853",
+            "Date": "2023-11-01T00:59:46Z",
+            "Block": "21174853",
+            "Origin": "api0.vega.community",
+            "Location": "s3://vega-automated-mainnet-backups/api0.vega.community/",
+            "Full": false,
+            "Pools": [
+                {
+                    "Name": "vega_pool",
+                    "MountPoint": "/vega_pool"
+                },
+                {
+                    "Name": "vega_pool/home",
+                    "MountPoint": "/home/vega"
+                },
+                {
+                    "Name": "vega_pool/home/network-history",
+                    "MountPoint": "/home/vega/network-history"
+                },
+                {
+                    "Name": "vega_pool/home/postgresql",
+                    "MountPoint": "/home/vega/postgresql"
+                },
+                {
+                    "Name": "vega_pool/home/tendermint_home",
+                    "MountPoint": "/home/vega/tendermint_home"
+                }
+            ]
         }
     ]
 }
